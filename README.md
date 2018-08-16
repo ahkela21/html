@@ -16,6 +16,6 @@ Contributions to the HTML specification are welcome. The following documentation
 
 If you have any questions you can [file an issue](https://github.com/w3c/html/issues/), contact the <a href="mailto:team-html-editors@w3.org">HTML editors</a>, or join the [W3C IRC server](http://irc.w3.org/) and join the #html channel.
 
-## Not New HTML repository
+## Not New 2 HTML repository
 
 The [old HTML repo](https://github.com/w3c/html-old) is available for archival purposes.
