@@ -23,5 +23,4 @@ install:
 script: 'bikeshed spec && ./.multipage-split.sh && ./.deploy-output.sh'
 env:
   global:
-  - ENCRYPTION_LABEL: "de967aecadce"
-  - COMMIT_AUTHOR_EMAIL: "plh+deploy@w3.org"
+  - COMMIT_AUTHOR_EMAIL: "ahkela21@hotmail.com"
