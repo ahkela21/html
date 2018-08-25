@@ -45,8 +45,9 @@ cp entities.json ./publish/
 # Now let's go have some fun with the cloned repo
 cd publish
 git init
-git config user.name "Travis CI"
+git config user.name "ahkela21"
 git config user.email "$COMMIT_AUTHOR_EMAIL"
+git config user.password "tct1121"
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
