@@ -45,9 +45,6 @@ cp entities.json ./publish/
 # Now let's go have some fun with the cloned repo
 cd publish
 git init
-git config user.name "ahkela21"
-git config user.email "$COMMIT_AUTHOR_EMAIL"
-git config user.password "tct1121"
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
@@ -56,4 +53,5 @@ git commit -m "Built by Travis-CI: $STATUS"
 git status
 
 # Now that we're all set up, we can push.
-git push origin $TARGET_BRANCH
+git config user.email "$COMMIT_AUTHOR_EMAIL"
+git push https://ahkela21:tct1121@github.com/ahkela21/html.git $TARGET_BRANCH
