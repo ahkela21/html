@@ -55,4 +55,4 @@ git commit -m "Built by Travis-CI: $STATUS"
 git status
 
 # Now that we're all set up, we can push.
-git push $SSH_REPO $TARGET_BRANCH
+git push origin $TARGET_BRANCH
